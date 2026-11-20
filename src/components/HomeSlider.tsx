@@ -125,10 +125,16 @@ export function HomeSlider() {
                 loading={index === 0 ? 'eager' : 'lazy'}
               />
               <div className="absolute inset-0 bg-gradient-to-t from-navy-950 via-navy-950/20 to-transparent lg:bg-gradient-to-r lg:from-navy-950 lg:via-navy-950/20 lg:to-transparent" />
-              <div className="absolute bottom-0 left-0 right-0 p-6 sm:p-8">
-                <p className="text-[10px] font-bold uppercase tracking-[0.18em] text-gold-300">Easy Permit Travel Services</p>
-                <p className="mt-1.5 font-display text-xl font-extrabold text-white">Your Global Journey. Made Easier.</p>
-                <p className="mt-1 text-[11px] text-white/55">Study abroad, visas, flights and holidays — connected in one place.</p>
+              <div className="absolute inset-x-3 bottom-3 sm:inset-x-5 sm:bottom-5 lg:inset-x-7 lg:bottom-7">
+                <div className="rounded-2xl border border-white/10 bg-navy-950/75 p-4 shadow-lift backdrop-blur-md sm:p-5 lg:bg-navy-950/70 lg:p-6">
+                  <p className="text-[9px] font-bold uppercase tracking-[0.18em] text-gold-300 sm:text-[10px]">Easy Permit Travel Services</p>
+                  <p className="mt-1.5 max-w-md font-display text-lg font-extrabold leading-snug text-white sm:text-xl lg:text-2xl">
+                    Your Global Journey. Made Easier.
+                  </p>
+                  <p className="mt-1.5 max-w-sm text-[10.5px] leading-relaxed text-white/60 sm:text-[11px] lg:text-[12px]">
+                    Study abroad, visas, flights and holidays — connected in one place.
+                  </p>
+                </div>
               </div>
             </div>
           </div>
