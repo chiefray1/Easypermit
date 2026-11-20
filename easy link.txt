@@ -1,0 +1,1596 @@
+EASY PERMIT TRAVEL SERVICES
+Complete Website Redesign & OpenCode Development Blueprint
+YOUR GLOBAL JOURNEY. MADE EASIER.
+International Education & Travel Consultancy
+Study Abroad
+Visa Consultancy
+Flight Reservations
+Tours & Holidays
+
+
+DOCUMENT
+
+Master Development Specification
+
+VERSION
+
+2.0 – OpenCode Edition
+
+DATE
+
+19 November 2026
+
+DEVELOPMENT AGENT
+
+OpenCode
+
+
+
+1. Approved business direction
+Decision	Specification
+Brand	Easy Permit Travel Services
+Positioning	International Education & Travel Consultancy
+Primary audience	Students and travellers equally
+Growth priority	Study Abroad and Visa Consultancy
+Secondary services	Flights, holidays and travel arrangements
+Domain	Retain existing Easy Permit domain
+Coding agent	OpenCode
+Frontend	React + TypeScript
+Styling	Tailwind CSS
+Backend	Supabase
+Database	Supabase PostgreSQL
+CRM	Zoho CRM
+Communication	WhatsApp Business and email
+Main conversion channels	Website, WhatsApp and consultations
+Initial team	Three CRM users
+
+2. Business objective
+The website must function as a digital customer acquisition and conversion platform.
+
+It must:
+1. Attract prospective international students and travellers.
+2. Help visitors identify the right Easy Permit service.
+3. Collect and qualify enquiries automatically.
+4. Move prospects into consultations, quotations and payments.
+5. Enable the team to track customers from first contact to completed service.
+The long-term commercial ambition is to support 100 clients monthly and more than ₦50 million in average monthly revenue.
+
+These are growth targets, not guaranteed outcomes.
+3. Brand and visual design specification
+Brand personality
+- Professionalism.
+- Trustworthiness.
+- International exposure.
+- Accessibility.
+- Personal attention.
+- Confidence and clarity.
+Visual system
+Design element	Specification
+Primary navy	#102B4D
+Deep navy	#091B30
+Gold	#C49A48
+White	#FFFFFF
+Light background	#F5F7FA
+Body text	#344054
+Success	#16845B
+Heading font	Manrope
+Body font	Inter
+Buttons	Rounded, medium radius
+Cards	Clean white, subtle shadows
+Photography	Authentic international imagery
+
+Design principle: Premium but approachable.
+
+Avoid generic travel templates, excessive flags, passport icons, cluttered layouts and designs that make the business look like an airline booking portal.
+
+Navigation
+- Home
+- Study Abroad
+- Visa Services
+- Travel Services
+- Destinations
+- About Us
+- Resources
+- Contact
+Primary navigation CTA: Get Started.
+
+Mobile navigation must include a collapsible menu and easily accessible WhatsApp and enquiry options.
+4. Complete website architecture
+Build the following pages and URL structures.
+Page	URL
+Homepage	/
+Study Abroad	/study-abroad
+Study Destinations	/study-abroad/destinations
+United Kingdom	/study-abroad/destinations/uk
+Germany	/study-abroad/destinations/germany
+Canada	/study-abroad/destinations/canada
+United States	/study-abroad/destinations/usa
+Malaysia	/study-abroad/destinations/malaysia
+Ireland	/study-abroad/destinations/ireland
+Visa Services	/visa-services
+Tourist Visa	/visa-services/tourist-visa
+Business Visa	/visa-services/business-visa
+Family Visit Visa	/visa-services/family-visit
+Medical Visa	/visa-services/medical-visa
+Student Visa	/visa-services/student-visa
+Travel Services	/travel-services
+Flight Reservations	/flight-booking
+Tours & Holidays	/tours-holidays
+About Us	/about-us
+Success Stories	/success-stories
+Resources	/resources
+Individual Articles	/resources/article-slug
+FAQs	/faqs
+Contact	/contact
+Privacy Policy	/privacy-policy
+Terms	/terms-and-conditions
+
+5. Page-by-page content requirements
+Homepage
+Hero heading:
+
+Your Global Journey. Made Easier.
+
+Supporting text:
+
+Whether you are planning to study abroad, applying for a visa, booking an international flight or organising your next holiday, Easy Permit helps you navigate the process with professional guidance and personalised support.
+
+Primary CTA: Explore Your Opportunities.
+
+Secondary CTA: Chat With an Adviser.
+
+Homepage sections:
+1. Hero section.
+2. Four service cards.
+3. Study Abroad feature.
+4. Popular destinations.
+5. Why Choose Easy Permit.
+6. How Our Process Works.
+7. Verified client success stories.
+8. Testimonials.
+9. Frequently Asked Questions.
+10. Resources and latest articles.
+11. Final consultation CTA.
+12. Footer with contact information and social links.
+Study Abroad
+Headline:
+
+Your Dream of Studying Abroad Starts With the Right Guidance.
+
+Services:
+- Academic profile assessment.
+- University and course selection.
+- Admission application support.
+- Scholarship opportunity guidance.
+- Student visa documentation support.
+- Financial evidence guidance.
+- Interview preparation.
+- Accommodation arrangements.
+- Flight booking and pre-departure assistance.
+CTAs:
+- Start Your Study Abroad Assessment.
+- Book a Student Consultation.
+Study Destinations
+Initial destinations:
+- United Kingdom.
+- Germany.
+- Canada.
+- United States.
+- Malaysia.
+- Ireland.
+Each destination page must contain:
+- Destination introduction.
+- Reasons to study there.
+- Popular courses and academic levels.
+- Admission requirements.
+- Estimated tuition and living expenses.
+- Scholarship opportunities.
+- Application intakes.
+- Student visa process.
+- FAQs.
+- Enquiry form.
+All country-specific information must be date-checked.
+
+Clearly distinguish estimated expenses from official government and university charges.
+Visa Services
+Headline:
+
+Navigate Your Visa Application With Confidence.
+
+Services:
+- Tourist and visitor visas.
+- Business visas.
+- Family visit visas.
+- Medical travel visas.
+- Student visa guidance.
+- Other eligible visa categories.
+Each category must have a dedicated landing page and assessment form.
+
+Mandatory disclaimer:
+
+Visa decisions are made exclusively by the relevant immigration authorities. Easy Permit does not guarantee visa approval.
+Travel Services
+Headline:
+
+Travel Planning Made Simpler.
+
+Services:
+- International flight reservations.
+- Accommodation assistance.
+- Holiday planning.
+- Travel itinerary support.
+- Group travel coordination.
+- Travel insurance referrals where available.
+Every service must have a functional enquiry or quotation CTA.
+Flight Reservations
+Headline:
+
+Find the Right Flight for Your Journey.
+
+Build a flight quotation enquiry system, not a fake live booking engine.
+
+Fields:
+- Departure city.
+- Destination.
+- Departure date.
+- Return date, if applicable.
+- One-way or return.
+- Number of passengers.
+- Cabin class.
+- Passenger contact information.
+The team prepares and sends quotations.
+
+Live flight inventory and payment integration can be added later.
+Tours & Holidays
+Headline:
+
+Discover More of the World.
+
+Display curated packages with:
+- Destination photography.
+- Package descriptions.
+- Duration.
+- Inclusions and exclusions.
+- Verified indicative prices.
+- Departure periods.
+- Group or private options.
+- Enquiry CTA.
+Never invent holiday packages, availability or prices.
+About Easy Permit
+Opening copy:
+
+Making Global Opportunities More Accessible.
+
+Easy Permit Travel Services is an international education and travel consultancy committed to helping individuals and families navigate international education and travel opportunities with clarity, confidence and professional support.
+
+Include:
+- Company story.
+- Mission and vision.
+- Core values.
+- Service philosophy.
+- Team profiles.
+- Verified credentials and affiliations.
+- Contact information.
+Never publish unverified accreditation or university partnership claims.
+Success Stories
+Organise stories by:
+- Study abroad success.
+- Visa application support.
+- Family and holiday travel.
+- Flight and travel arrangements.
+Use only authentic client stories with permission. Show actual outcomes and relevant dates.
+Resources and Blog
+Build an SEO-focused resource centre.
+
+Initial article topics:
+1. How to Study in the UK from Nigeria.
+2. Study in Germany: Complete Guide.
+3. How to Choose an International University.
+4. Student Visa Documentation Checklist.
+5. How to Apply for a UK Visit Visa.
+6. Tourist Visa Application Mistakes to Avoid.
+7. How to Plan Your International Travel Budget.
+8. How to Prepare for an International Trip.
+Every article must have a relevant service CTA.
+Contact and Consultation
+Include:
+- Verified office address.
+- Official telephone number.
+- WhatsApp contact.
+- Business email.
+- Working hours.
+- Social media links.
+- Consultation request form.
+- Google Maps location where applicable.
+Primary CTA: Speak With Our Team.
+
+6. Lead generation and customer journeys
+Students and travellers have different buying motivations. They must not be forced through the same enquiry process.
+Journey A: Study Abroad
+1. Visitor discovers Easy Permit through Google or social media.
+2. Visits Study Abroad.
+3. Completes academic profile assessment.
+4. Receives acknowledgement and consultation invitation.
+5. Education adviser reviews academic and financial profile.
+6. Student receives recommended options and service proposal.
+7. Student accepts and makes agreed payment.
+8. Application processing and progress updates begin.
+9. Admission, visa guidance and pre-departure support.
+Target outcome: Paying student client.
+
+Student assessment fields
+- Full name.
+- Phone and email.
+- Country of residence.
+- Highest qualification.
+- Graduation year.
+- Course of interest.
+- Preferred destination.
+- Preferred intake.
+- Available study budget.
+- English language qualification, if applicable.
+- Additional information.
+Do not automatically reject students based on budget or lack of an English test result.
+
+These are qualification factors for an adviser.
+Journey B: Visa Customer
+1. Visitor lands on a country-specific visa page.
+2. Selects visa type and proposed travel dates.
+3. Completes visa assessment.
+4. Lead enters visa pipeline.
+5. Consultant reviews applicant circumstances.
+6. Client receives service scope, fees and checklist.
+7. Client confirms and pays.
+8. Documentation and application preparation begin.
+9. Client receives progress updates and final outcome follow-up.
+Target outcome: Paying visa consultancy client.
+Journey C: Flight Customer
+1. Selects flight enquiry.
+2. Provides departure and destination information.
+3. Receives acknowledgement.
+4. Adviser prepares available options.
+5. Client receives quotation.
+6. Client confirms preferred flight.
+7. Payment and ticket issuance.
+8. Booking confirmation and after-sales support.
+Journey D: Holiday Customer
+1. Views destination or package.
+2. Selects holiday type and travel period.
+3. Completes group size and budget details.
+4. Receives personalised proposal.
+5. Confirms booking.
+6. Receives itinerary, payment information and travel documentation.
+7. Zoho CRM integration architecture
+This is a critical business requirement.
+
+The website must automatically create structured customer records in Zoho CRM.
+
+System responsibilities
+Component	Responsibility
+OpenCode	Software development and implementation
+React	Website frontend
+Supabase	Database and server-side processing
+Zoho CRM	Main customer and sales management
+WhatsApp Business	Customer conversations
+Email	Acknowledgements and follow-up
+Google Analytics	Marketing performance
+Meta Pixel	Facebook and Instagram tracking
+TikTok Pixel	TikTok tracking
+
+CRM structure
+Use one central Leads module with separate service pipelines or clearly defined lead classifications.
+
+Required CRM fields:
+Field	Example
+First Name	John
+Last Name	Doe
+Phone	+234…
+Email	Customer email
+Lead Source	Instagram
+Service Category	Study Abroad
+Destination	United Kingdom
+Service Type	Master's admission
+Preferred Intake	September 2027
+Budget Range	₦5m–₦10m
+Lead Status	New
+Assigned Adviser	Staff member
+Next Follow-up	Scheduled date
+Consent Status	Recorded
+Website Campaign	Study Abroad 2027
+
+Additional visa-specific fields must include:
+- Visa category.
+- Intended travel date.
+- Country of residence.
+- Relevant application circumstances.
+Study Abroad pipeline
+1. New enquiry.
+2. Assessment pending.
+3. Consultation booked.
+4. Qualified prospect.
+5. Proposal sent.
+6. Payment pending.
+7. Application processing.
+8. Admission received.
+9. Visa support.
+10. Travel preparation.
+11. Completed / Won.
+12. Lost / Nurture.
+Visa pipeline
+1. New enquiry.
+2. Applicant assessment.
+3. Documentation pending.
+4. Consultation completed.
+5. Service proposal sent.
+6. Payment received.
+7. Application preparation.
+8. Submitted / Client follow-up.
+9. Decision received.
+10. Completed / Lost.
+Use simpler pipelines for flights and holidays.
+Automated workflows
+Trigger	Automation
+New website enquiry	Create Zoho lead
+New lead	Assign adviser
+Lead created	Send acknowledgement
+No contact after 15 minutes during working hours	Create follow-up task
+Consultation booked	Send confirmation
+Proposal sent	Create follow-up reminder
+Payment confirmed	Update deal stage
+Application stage changes	Notify assigned adviser
+Service completed	Request feedback
+Successful client	Invite referral
+
+The 15-minute response time is a monitored business service-level target, not a guaranteed response.
+Three-person staff arrangement
+Role	Responsibility
+Business Director	Oversight, high-value prospects and reporting
+Education & Visa Adviser	Assessments, consultations and applications
+Sales & Customer Experience Officer	Enquiries, WhatsApp, quotations and follow-ups
+
+Every new lead must have an assigned owner and next action.
+Zoho integration implementation
+Preferred architecture: Supabase Edge Functions connected to the Zoho CRM API.
+
+Workflow:
+1. Website submits assessment.
+2. Supabase validates data.
+3. Server-side function sends lead to Zoho.
+4. Zoho returns lead record identifier.
+5. Supabase stores submission reference.
+6. User receives successful submission message.
+7. Integration failures enter retry queue.
+8. Administrator receives failure notification.
+Use Zoho OAuth securely.
+
+All access tokens and secrets must remain server-side.
+
+If credentials are unavailable, implement the integration structure and document the missing configuration. Never simulate a successful CRM submission.
+WhatsApp integration
+Implement:
+- Floating WhatsApp button.
+- Service-specific WhatsApp messages.
+- Click-to-chat links with enquiry context.
+- CRM activity logging where supported.
+- Automated acknowledgement through an approved WhatsApp Business Platform integration.
+Use the official WhatsApp Business Platform for advanced automation.
+
+8. Supabase database and backend requirements
+Create the following tables:
+Table	Purpose
+profiles	Authenticated admin profiles
+service_categories	Services offered
+destinations	Country information
+enquiries	Website enquiry records
+consultation_bookings	Appointment requests
+articles	Blog and resource content
+testimonials	Approved client stories
+holiday_packages	Published holiday offers
+flight_enquiries	Flight quotation requests
+integration_logs	Zoho and email delivery status
+consent_records	Privacy and marketing consent
+
+Each enquiry must contain:
+- Unique ID.
+- Customer details.
+- Service category.
+- Destination.
+- Enquiry information.
+- Lead source.
+- UTM parameters.
+- Submission date.
+- Consent status.
+- Zoho CRM record ID.
+- Integration status.
+Security requirements
+- Enable Row Level Security on sensitive tables.
+- Public users can submit enquiries but cannot access other customers' information.
+- Staff access requires authentication.
+- Only authorised administrators can edit website content.
+- Keep integration secrets in server-side environment variables.
+- Rate-limit forms.
+- Implement spam protection.
+- Do not expose customer information in analytics events.
+- Never store sensitive application documents in public storage.
+Do not build full client document management in the first release. That should be a separate authenticated feature in a later phase.
+9. Advertising and SEO strategy
+Create dedicated advertising landing pages:
+Campaign	Landing page
+UK Study Abroad	/study-abroad/uk
+Germany Study Abroad	/study-abroad/germany
+Canada Study Abroad	/study-abroad/canada
+Tourist Visa	/visa-services/tourist-visa
+UK Visit Visa	/visa-services/uk-visit-visa
+International Flights	/flight-booking
+Holiday Packages	/tours-holidays
+
+Each landing page must have one primary conversion objective and preserve campaign attribution.
+Tracking configuration
+Install:
+- Google Analytics 4.
+- Google Search Console.
+- Meta Pixel.
+- TikTok Pixel.
+- UTM campaign tracking.
+- Zoho lead source tracking.
+Track:
+- page_view
+- service_view
+- assessment_started
+- assessment_completed
+- whatsapp_click
+- consultation_requested
+- flight_enquiry
+- payment_confirmed
+Payment confirmation must come from a verified payment provider callback, never simply from a visitor clicking a button.
+SEO standards
+Every service and destination page must have:
+- Unique page title.
+- Unique meta description.
+- One main H1 heading.
+- Descriptive URL.
+- Optimised image alt text.
+- Internal links.
+- Relevant FAQs.
+- Sitemap inclusion.
+- Canonical URL.
+- Appropriate structured data.
+10. Domain and deployment architecture
+The existing Easy Permit domain remains the primary public identity.
+
+OpenCode must prepare the application for deployment to an appropriate hosting provider.
+
+Implementation requirements:
+1. Confirm exact existing domain and registrar.
+2. Check whether it is attached to an existing live website.
+3. Preserve existing email DNS records.
+4. Build and test locally.
+5. Configure production environment variables.
+6. Deploy to a staging environment.
+7. Connect the existing domain after approval.
+8. Verify SSL/HTTPS.
+9. Configure canonical domain.
+10. Redirect old URLs to new equivalent pages.
+11. Test forms, CRM integrations and analytics.
+12. Submit sitemap to Google Search Console.
+Important: Never modify production DNS, overwrite an existing live website or deploy breaking changes without explicit approval.
+
+11. MASTER OPENCODE DEVELOPMENT PROMPT
+Ready to copy into OpenCode
+The following is the main instruction to give OpenCode. It is designed to make the coding agent implement the actual business application rather than generate only a visual mockup.
+EASY PERMIT TRAVEL SERVICES — COMPLETE WEBSITE REDESIGN AND DEVELOPMENT
+ROLE AND PROJECT INSTRUCTIONS
+You are acting as a senior full-stack software engineer, UI/UX designer, software architect, database engineer, security engineer and technical project manager.
+
+Your assignment is to completely design, develop, test and prepare a production-ready website and business enquiry management system for Easy Permit Travel Services.
+
+This is a real commercial business application, not a demonstration, static landing page or visual prototype.
+
+You must write actual working code, create the necessary project files, implement the frontend and backend, configure database migrations, connect integrations, test functionality and document the final implementation.
+
+Work directly within the current project repository.
+
+Do not merely describe what should be built. Build it.
+1. BUSINESS OVERVIEW
+Business name: Easy Permit Travel Services.
+
+Business positioning: International Education & Travel Consultancy.
+
+Brand tagline: Your Global Journey. Made Easier.
+
+The business serves two primary audiences equally:
+1. Students seeking international education, university admissions and student visa guidance.
+2. Individuals and families seeking international travel, visa assistance, flight reservations and holiday services.
+The website must operate as a professional customer acquisition and conversion platform.
+
+Its purpose is to:
+- Attract prospective students and travellers.
+- Present the company's services professionally.
+- Generate qualified customer enquiries.
+- Capture structured customer information.
+- Automatically send leads into Zoho CRM.
+- Enable consultation requests.
+- Support WhatsApp and email communication.
+- Provide a protected administrative dashboard.
+- Support advertising attribution and SEO.
+- Provide a scalable foundation for business growth.
+The long-term commercial growth targets are 100 clients monthly and more than ₦50 million in average monthly revenue. These are business objectives, not guaranteed results.
+2. DEVELOPMENT ENVIRONMENT AND TECHNICAL STACK
+Use the following architecture:
+
+Frontend:
+- React.
+- TypeScript.
+- Modern component-based architecture.
+Styling:
+- Tailwind CSS.
+- Reusable UI components.
+- Responsive layouts.
+- Consistent design tokens.
+Routing:
+- Use an appropriate React routing solution.
+- Implement all specified public routes.
+- Ensure nested destination and visa routes work correctly.
+Backend:
+- Supabase.
+Database:
+- Supabase PostgreSQL.
+Authentication:
+- Supabase Auth.
+Server-side operations:
+- Supabase Edge Functions.
+CRM:
+- Zoho CRM API with secure OAuth authentication.
+Communication:
+- WhatsApp Business links.
+- Configurable official WhatsApp Business Platform integration.
+- Transactional email provider.
+Analytics:
+- Google Analytics 4.
+- Meta Pixel.
+- TikTok Pixel.
+- Google Search Console readiness.
+Deployment:
+- Prepare for deployment to a suitable production hosting provider.
+- Use environment-specific configurations.
+- Keep staging and production environments separate.
+Before making architectural decisions:
+1. Inspect the existing repository.
+2. Identify the current framework and dependencies.
+3. Inspect existing components, assets and configuration.
+4. Identify existing integrations.
+5. Preserve useful existing functionality.
+6. Avoid unnecessarily replacing working project infrastructure.
+If the repository is empty, initialise the project using the specified stack.
+
+Do not expose API keys, OAuth tokens, service-role keys or private credentials in frontend code.
+
+Never commit secrets into version control.
+3. BRAND IDENTITY AND DESIGN SYSTEM
+Business name:
+Easy Permit Travel Services.
+
+Colours:
+- Primary navy: #102B4D.
+- Deep navy: #091B30.
+- Gold: #C49A48.
+- White: #FFFFFF.
+- Light background: #F5F7FA.
+- Body text: #344054.
+- Success: #16845B.
+Typography:
+- Headings: Manrope.
+- Body: Inter.
+Design direction:
+
+Premium, modern, elegant, trustworthy, internationally oriented and welcoming.
+
+Use professional photography showing:
+- African students in international universities.
+- International campuses.
+- Airports and international travellers.
+- Professional travel consultations.
+- Global destinations.
+- Graduates and successful travellers.
+Avoid:
+- Generic website templates.
+- Excessive flags.
+- Excessive passport icons.
+- Cluttered layouts.
+- Inconsistent typography.
+- Excessive animations.
+- Unprofessional stock imagery.
+Create a consistent design system with reusable:
+- Buttons.
+- Navigation.
+- Cards.
+- Forms.
+- Input fields.
+- Select menus.
+- Modals.
+- Alerts.
+- Badges.
+- Breadcrumbs.
+- Section headings.
+- Footers.
+- Loading states.
+- Empty states.
+- Success and error notifications.
+The final website must feel premium but approachable.
+4. WEBSITE NAVIGATION
+Create these navigation items:
+- Home.
+- Study Abroad.
+- Visa Services.
+- Travel Services.
+- Destinations.
+- About Us.
+- Success Stories.
+- Resources.
+- Contact Us.
+Include a prominent Get Started button.
+
+Desktop navigation must be clean and professional.
+
+Mobile navigation must use a collapsible menu with persistent access to WhatsApp and enquiry options.
+5. REQUIRED WEBSITE PAGES
+Implement the following routes:
+
+/
+/study-abroad
+/study-abroad/destinations
+/study-abroad/destinations/uk
+/study-abroad/destinations/germany
+/study-abroad/destinations/canada
+/study-abroad/destinations/usa
+/study-abroad/destinations/malaysia
+/study-abroad/destinations/ireland
+
+/visa-services
+/visa-services/tourist-visa
+/visa-services/business-visa
+/visa-services/family-visit
+/visa-services/medical-visa
+/visa-services/student-visa
+
+/travel-services
+/flight-booking
+/tours-holidays
+
+/about-us
+/success-stories
+/resources
+/faqs
+/contact
+/privacy-policy
+/terms-and-conditions
+
+Also implement dynamic article routes under /resources/:slug.
+
+All routes must render correctly, including direct navigation and page refreshes.
+6. HOMEPAGE
+Create a visually impressive homepage.
+
+HERO SECTION
+
+Headline:
+Your Global Journey. Made Easier.
+
+Supporting text:
+Whether you are planning to study at an international university, applying for a visa, booking an international flight or organising your next holiday, Easy Permit helps you navigate your journey with professional guidance and personalised support.
+
+Primary CTA:
+Explore Your Opportunities.
+
+Secondary CTA:
+Chat With an Adviser.
+
+Use premium international education and travel photography.
+
+SECTION 2 — OUR SERVICES
+
+Create four professional service cards.
+
+A. Study Abroad
+University selection, admission applications, scholarship guidance, student visa documentation and pre-departure assistance.
+
+B. Visa Services
+Tourist, visitor, business, family visit, medical and student visa application support.
+
+C. Flight Reservations
+International flight enquiries, quotations and booking assistance.
+
+D. Tours & Holidays
+Holiday packages, destination planning and travel arrangements.
+
+Every service card must navigate to its dedicated service page.
+
+SECTION 3 — STUDY ABROAD
+
+Headline:
+Your International Education Journey Starts Here.
+
+Explain Easy Permit's support with university selection, academic profile assessment, admissions, visa documentation and travel preparation.
+
+CTA:
+Start Your Study Abroad Assessment.
+
+SECTION 4 — POPULAR DESTINATIONS
+
+Create destination cards for:
+- United Kingdom.
+- Germany.
+- Canada.
+- United States.
+- Malaysia.
+- Ireland.
+Every destination card must navigate to its corresponding country page.
+
+Do not invent tuition fees, scholarships or university partnerships.
+
+SECTION 5 — WHY CHOOSE EASY PERMIT
+
+Display six benefits:
+- Personalised professional guidance.
+- Transparent processes.
+- Structured application support.
+- Clear communication.
+- Dedicated customer assistance.
+- Support beyond application preparation.
+SECTION 6 — HOW IT WORKS
+
+Create five visual steps:
+1. Tell us your plans.
+2. Complete your assessment.
+3. Receive personalised guidance.
+4. Begin your application or booking.
+5. Prepare for your journey.
+SECTION 7 — SUCCESS STORIES
+
+Create an editable testimonial and client success section.
+
+Use only authentic testimonials with appropriate client permission.
+
+SECTION 8 — RESOURCES
+
+Display recent education articles, visa resources, destination guides and travel tips.
+
+SECTION 9 — FAQ
+
+Implement expandable frequently asked questions.
+
+SECTION 10 — FINAL CTA
+
+Headline:
+Your Next Opportunity Could Be One Conversation Away.
+
+Buttons:
+- Speak With an Adviser.
+- Explore Our Services.
+SECTION 11 — FOOTER
+
+Include company name, navigation links, services, contact details, social links, privacy policy, terms and conditions and WhatsApp contact.
+7. DEDICATED SERVICE PAGES
+Create complete and consistent layouts for all specified service pages.
+
+STUDY ABROAD
+
+Headline:
+Your Dream of Studying Abroad Starts With the Right Guidance.
+
+Include:
+- Academic profile assessment.
+- University and course selection.
+- Admission application support.
+- Scholarship guidance.
+- Student visa documentation support.
+- Financial evidence guidance.
+- Interview preparation.
+- Accommodation assistance.
+- Flight booking.
+- Pre-departure support.
+CTA:
+Start Your Study Abroad Assessment.
+
+VISA SERVICES
+
+Headline:
+Navigate Your Visa Application With Confidence.
+
+Include:
+- Tourist and visitor visas.
+- Business visas.
+- Family visit visas.
+- Medical travel visas.
+- Student visa guidance.
+Mandatory disclaimer:
+Visa decisions are made exclusively by the relevant immigration authorities. Easy Permit does not guarantee visa approval.
+
+TRAVEL SERVICES
+
+Headline:
+Travel Planning Made Simpler.
+
+Include:
+- Flight reservations.
+- Accommodation assistance.
+- Holiday planning.
+- Itinerary support.
+- Group travel.
+- Insurance referrals where available.
+FLIGHT RESERVATIONS
+
+Headline:
+Find the Right Flight for Your Journey.
+
+Build a flight quotation enquiry system, not a fake live booking engine.
+
+TOURS & HOLIDAYS
+
+Headline:
+Discover More of the World.
+
+Display curated packages using verified information only.
+
+ABOUT US
+
+Headline:
+Making Global Opportunities More Accessible.
+
+Use the following introductory copy:
+
+Easy Permit Travel Services is an international education and travel consultancy committed to helping individuals and families navigate international education and travel opportunities with clarity, confidence and professional support.
+
+Include:
+- Company story.
+- Mission.
+- Vision.
+- Core values.
+- Team profiles.
+- Verified credentials.
+- Affiliations.
+- Contact information.
+SUCCESS STORIES
+
+Organise authentic stories into:
+- Study abroad.
+- Visa application support.
+- Family and holiday travel.
+- Flight and travel arrangements.
+RESOURCES
+
+Create an SEO-friendly article management system.
+
+Initial topics:
+- How to Study in the UK from Nigeria.
+- Study in Germany: Complete Guide.
+- How to Choose an International University.
+- Student Visa Documentation Checklist.
+- How to Apply for a UK Visit Visa.
+- Tourist Visa Application Mistakes to Avoid.
+- How to Plan Your International Travel Budget.
+- How to Prepare for an International Trip.
+Every article must contain a relevant service CTA.
+
+CONTACT
+
+Include:
+- Verified business address.
+- Official telephone number.
+- WhatsApp.
+- Business email.
+- Working hours.
+- Social media.
+- Consultation request form.
+All company-specific details must be configurable.
+
+Never fabricate company information.
+8. GLOBAL OPPORTUNITY ASSESSMENT SYSTEM
+Build an interactive, multi-step enquiry system.
+
+The first question must be:
+
+Which service are you interested in?
+
+Options:
+1. Study Abroad.
+2. Visa Assistance.
+3. Flight Reservations.
+4. Tours & Holidays.
+When the user selects a service, dynamically display the corresponding assessment form.
+
+STUDY ABROAD FORM
+
+Fields:
+- Full name.
+- Phone number.
+- Email address.
+- Country of residence.
+- Highest academic qualification.
+- Graduation year.
+- Preferred course.
+- Preferred destination.
+- Preferred intake.
+- Estimated education budget.
+- English language qualification.
+- Additional comments.
+VISA ASSESSMENT FORM
+
+Fields:
+- Full name.
+- Phone number.
+- Email.
+- Country of residence.
+- Destination country.
+- Visa category.
+- Intended travel date.
+- Previous visa application experience, if applicable.
+- Estimated travel budget.
+- Additional information.
+FLIGHT ENQUIRY FORM
+
+Fields:
+- Full name.
+- Phone.
+- Email.
+- Departure city.
+- Destination.
+- Travel date.
+- Return date where applicable.
+- One-way or return.
+- Passenger numbers.
+- Cabin class.
+HOLIDAY ENQUIRY FORM
+
+Fields:
+- Full name.
+- Phone.
+- Email.
+- Preferred destination.
+- Travel period.
+- Number of travellers.
+- Holiday type.
+- Estimated budget.
+- Additional requests.
+FUNCTIONAL REQUIREMENTS
+
+Implement:
+- Multi-step navigation.
+- Progress indicator.
+- Form validation.
+- Conditional fields.
+- Required field validation.
+- Clear error messages.
+- Mobile-friendly controls.
+- Submission loading state.
+- Submission confirmation.
+- Privacy and consent notices.
+- Anti-spam protection.
+- Duplicate submission protection.
+Do not automatically make visa eligibility decisions.
+
+Do not automatically reject student enquiries based on budget or missing English language results.
+
+Save every successfully validated enquiry in Supabase.
+9. SUPABASE DATABASE
+Create migrations for:
+- profiles.
+- service_categories.
+- destinations.
+- enquiries.
+- consultation_bookings.
+- articles.
+- testimonials.
+- holiday_packages.
+- flight_enquiries.
+- integration_logs.
+- consent_records.
+Each enquiry must include:
+- Unique ID.
+- Customer details.
+- Service category.
+- Destination.
+- Enquiry information.
+- Lead source.
+- UTM campaign parameters.
+- Submission date.
+- Consent status.
+- Zoho CRM record ID.
+- Integration status.
+Create:
+- Appropriate relationships.
+- Database indexes.
+- Constraints.
+- Timestamps.
+- Foreign keys.
+- Secure access policies.
+Enable Row Level Security.
+
+Public users must only submit enquiries through validated and protected operations.
+
+Authenticated administrators must have controlled access to authorised business information.
+
+Never expose customer records publicly.
+
+Do not implement public passport, bank statement or sensitive immigration document uploads.
+10. ZOHO CRM INTEGRATION
+Implement a secure server-side Zoho CRM integration using Supabase Edge Functions.
+
+The integration must:
+1. Receive validated enquiry data.
+2. Save the enquiry in Supabase.
+3. Authenticate securely with Zoho.
+4. Map website fields to Zoho CRM fields.
+5. Create the corresponding Zoho lead.
+6. Retrieve the Zoho record ID.
+7. Save the CRM reference in Supabase.
+8. Update integration status.
+9. Trigger customer acknowledgement.
+10. Log errors and support retries.
+Create service classifications:
+- Study Abroad.
+- Visa Assistance.
+- Flight Reservations.
+- Tours & Holidays.
+Lead sources must include:
+- Website.
+- Google.
+- Instagram.
+- Facebook.
+- TikTok.
+- WhatsApp.
+- Referral.
+- Other.
+Implement secure OAuth token management.
+
+Never expose Zoho credentials in frontend code.
+
+If integration credentials are unavailable:
+- Build the integration structure.
+- Create environment variable documentation.
+- Record missing configuration.
+- Keep enquiry storage functional.
+- Clearly report that CRM synchronisation is pending.
+Never simulate a successful CRM submission.
+
+Implement duplicate enquiry handling and retry-safe processing.
+11. CRM SALES PIPELINES
+STUDY ABROAD
+1. New enquiry.
+2. Assessment pending.
+3. Consultation booked.
+4. Qualified prospect.
+5. Proposal sent.
+6. Payment pending.
+7. Application processing.
+8. Admission received.
+9. Visa support.
+10. Travel preparation.
+11. Completed / Won.
+12. Lost / Nurture.
+VISA
+1. New enquiry.
+2. Applicant assessment.
+3. Documentation pending.
+4. Consultation completed.
+5. Service proposal sent.
+6. Payment received.
+7. Application preparation.
+8. Submitted / Client follow-up.
+9. Decision received.
+10. Completed / Lost.
+Create simpler pipelines for flight and holiday customers.
+12. CUSTOMER COMMUNICATION
+Implement:
+- Floating WhatsApp button.
+- Service-specific WhatsApp messages.
+- Click-to-chat links containing enquiry context.
+- Consultation requests.
+- Customer acknowledgement emails.
+- Administrator enquiry notifications.
+Make WhatsApp numbers and business email configurable.
+
+Prepare integration support for the official WhatsApp Business Platform.
+
+Respect consent requirements and applicable messaging rules.
+
+Do not automate ordinary WhatsApp Web sessions.
+13. ADMINISTRATIVE DASHBOARD
+Create a protected administrative dashboard.
+
+DASHBOARD OVERVIEW
+
+Display:
+- Total enquiries.
+- New enquiries.
+- Study Abroad leads.
+- Visa leads.
+- Flight enquiries.
+- Holiday enquiries.
+- Consultation requests.
+- Lead source breakdown.
+- Enquiry trends.
+- CRM integration status.
+CONTENT MANAGEMENT
+
+Provide management interfaces for:
+- Destination pages.
+- Articles.
+- Testimonials.
+- Holiday packages.
+- FAQs.
+- Contact details.
+- Website content.
+ACCESS CONTROL
+
+Implement:
+- Secure administrator authentication.
+- Role-based access.
+- Protected routes.
+- Authorised content editing.
+- Secure data access.
+Only authorised administrators can access sensitive business information.
+14. AUTOMATION AND FOLLOW-UP
+Implement the following workflow architecture.
+
+New enquiry:
+- Save to Supabase.
+- Send to Zoho.
+- Assign an adviser.
+- Send acknowledgement.
+No contact after 15 minutes during business hours:
+- Create CRM follow-up task.
+Consultation booked:
+- Send confirmation.
+Proposal sent:
+- Create follow-up reminder.
+Payment confirmed:
+- Update relevant CRM stage.
+Application stage changed:
+- Notify assigned adviser.
+Service completed:
+- Request feedback.
+Successful customer:
+- Invite referral.
+Use configurable working hours.
+
+Do not promise automated communication when the required integration is not configured.
+15. SEO AND DIGITAL MARKETING
+Implement:
+- Unique SEO titles.
+- Meta descriptions.
+- Semantic HTML.
+- Descriptive URLs.
+- XML sitemap.
+- Robots.txt.
+- Canonical URLs.
+- Open Graph metadata.
+- Image alt text.
+- Appropriate structured data.
+- Internal linking.
+- Mobile optimisation.
+Support:
+- Google Analytics 4.
+- Google Search Console.
+- Meta Pixel.
+- TikTok Pixel.
+- UTM attribution.
+Track:
+- page_view.
+- service_view.
+- assessment_started.
+- assessment_completed.
+- whatsapp_click.
+- consultation_requested.
+- flight_enquiry.
+- payment_confirmed.
+Preserve campaign attribution when a visitor completes an enquiry.
+
+Never transmit sensitive personal information to advertising or analytics platforms.
+
+Payment confirmation must come from a verified payment provider callback.
+16. RESPONSIVENESS AND PERFORMANCE
+The website must work exceptionally well on:
+- iPhone.
+- Android.
+- Tablets.
+- Laptops.
+- Desktop monitors.
+Use mobile-first layouts.
+
+Prioritise:
+- Fast loading.
+- Responsive images.
+- Lazy loading.
+- Accessible typography.
+- Clear buttons.
+- Good contrast.
+- Consistent spacing.
+- Loading indicators.
+- Friendly empty states.
+- Form validation.
+- Success and error notifications.
+Avoid excessive animation and unnecessary dependencies.
+17. LEGAL AND TRUST REQUIREMENTS
+Include:
+- Privacy policy.
+- Terms and conditions.
+- Cookie and analytics consent where applicable.
+- Clear service fees.
+- Third-party cost disclosures.
+- Data protection practices.
+- Data retention policies.
+- Visa approval disclaimer.
+Never claim guaranteed visa approval.
+
+Never invent:
+- Testimonials.
+- Awards.
+- Partnerships.
+- Certifications.
+- Prices.
+- Office addresses.
+- Accreditation.
+Make company information editable through authorised administrative settings.
+18. SECURITY REQUIREMENTS
+Apply secure development practices throughout the project.
+
+Requirements:
+- Validate inputs on the server.
+- Sanitise user-generated content.
+- Enforce Row Level Security.
+- Protect administrator routes.
+- Use secure authentication.
+- Keep private credentials server-side.
+- Implement rate limiting.
+- Add anti-spam protection.
+- Protect against common web vulnerabilities.
+- Avoid logging sensitive personal information.
+- Implement appropriate error handling.
+- Validate integration webhooks.
+- Use HTTPS in production.
+- Protect against duplicate submissions.
+- Keep dependencies updated.
+Do not store sensitive immigration documents in public buckets.
+19. DEVELOPMENT AND IMPLEMENTATION WORKFLOW
+Work in controlled phases.
+
+PHASE 1 — FOUNDATION AND PUBLIC WEBSITE
+- Inspect repository.
+- Establish architecture.
+- Configure dependencies.
+- Create design system.
+- Build navigation.
+- Build homepage.
+- Build all public service pages.
+- Build destination pages.
+- Implement responsive layouts.
+Acceptance criteria:
+- All public routes work.
+- Navigation works.
+- CTAs work.
+- Design is consistent.
+- Mobile layouts are tested.
+PHASE 2 — DATABASE AND ENQUIRIES
+- Configure Supabase.
+- Create database migrations.
+- Implement Row Level Security.
+- Build all four assessment pathways.
+- Implement validation.
+- Save enquiries.
+- Implement anti-spam protection.
+Acceptance criteria:
+- All four enquiry journeys work.
+- Submissions persist correctly.
+- Invalid submissions are rejected.
+- Public users cannot read other enquiries.
+PHASE 3 — CRM AND COMMUNICATION
+- Implement Zoho OAuth.
+- Build Zoho integration functions.
+- Map CRM fields.
+- Implement lead creation.
+- Implement retry handling.
+- Implement email acknowledgements.
+- Implement WhatsApp links.
+- Implement administrator notifications.
+Acceptance criteria:
+- Zoho lead creation is tested with authorised credentials.
+- Lead attribution is preserved.
+- Errors are logged.
+- Failed synchronisation can be retried.
+- Communication links work.
+PHASE 4 — ADMINISTRATION AND CONTENT
+- Build secure admin login.
+- Build dashboard.
+- Build enquiry overview.
+- Build content management.
+- Build article management.
+- Build destination management.
+- Build testimonial management.
+- Build holiday package management.
+- Implement role-based permissions.
+Acceptance criteria:
+- Admin access is protected.
+- Content is editable.
+- Sensitive records are restricted.
+- Dashboard information is based on actual data.
+PHASE 5 — SEO, ANALYTICS AND PRODUCTION
+- Implement SEO metadata.
+- Generate sitemap.
+- Configure robots.txt.
+- Configure analytics.
+- Configure campaign attribution.
+- Optimise images.
+- Run security checks.
+- Run responsiveness tests.
+- Prepare production deployment.
+Acceptance criteria:
+- All routes work.
+- Forms work.
+- Database works.
+- CRM integration is tested.
+- Analytics events are verified.
+- Security policies are checked.
+- Deployment documentation is complete.
+20. DEVELOPMENT RULES
+Follow these rules throughout the project.
+1. Do not build only a homepage or visual mockup.
+2. Implement every specified public page.
+3. Do not leave important buttons non-functional.
+4. Do not use fake CRM records.
+5. Do not simulate successful integrations.
+6. Do not hardcode private credentials.
+7. Do not invent business information.
+8. Do not overwrite an existing production website without approval.
+9. Do not make production DNS changes without approval.
+10. Do not remove existing working features without a reason.
+11. Use reusable components.
+12. Maintain clean and maintainable TypeScript.
+13. Use appropriate error handling.
+14. Create database migrations.
+15. Document all required environment variables.
+16. Test each customer journey.
+17. Fix errors before proceeding to production.
+18. Keep the implementation aligned with the approved design system.
+If essential credentials or information are missing, continue building all functionality that can be completed independently and document the outstanding configuration.
+
+Do not stop the entire project simply because external API credentials are unavailable.
+21. FINAL DELIVERABLES
+At completion, provide:
+1. Complete responsive website.
+2. All required public pages.
+3. Working four-service assessment system.
+4. Supabase database schema and migrations.
+5. Row Level Security policies.
+6. Supabase Edge Functions.
+7. Zoho CRM integration.
+8. WhatsApp integration preparation.
+9. Email notification integration.
+10. Protected administrative dashboard.
+11. Editable website content.
+12. SEO implementation.
+13. Analytics implementation.
+14. Error handling and integration logs.
+15. Testing documentation.
+16. Environment variable example file.
+17. Production deployment instructions.
+18. Final implementation report.
+The implementation report must identify:
+- Completed features.
+- Outstanding integrations.
+- Required credentials.
+- Known limitations.
+- Failed tests, if any.
+- Security considerations.
+- Deployment instructions.
+22. FINAL PRODUCT OBJECTIVE
+Deliver a premium, trustworthy, mobile-first international education and travel consultancy website that:
+- Attracts qualified customers.
+- Converts visitors into enquiries.
+- Captures customer information securely.
+- Connects enquiries to Zoho CRM.
+- Supports the Easy Permit sales team.
+- Provides a professional customer experience.
+- Supports marketing and SEO.
+- Creates a scalable foundation for future business growth.
+The final experience must make visitors confident that Easy Permit is the right partner for their international education and travel journey.
+
+The website is the front office of Easy Permit.
+
+Zoho CRM is the sales office.
+
+The team is the conversion engine.
+
+All three must operate as one connected system.
+
+Start by inspecting the existing repository and producing a concise implementation plan. Then begin building the actual application in the approved phases.
+
+Do not stop at planning. Continue with implementation, testing, error correction and documentation.
+
+Do not deploy to production or modify the existing live domain without explicit approval.
+
+
+
+
+
+12. Development milestones and acceptance criteria
+Use these milestones to supervise OpenCode's progress.
+Project completion tracker
+Overall progress
+0/16
+
+
+
+Phase 1 — Brand and public website
+[ ] Responsive homepage completed
+[ ] All navigation and public pages created
+[ ] Brand colours and typography consistent
+[ ] All service CTAs functional
+
+Phase 2 — Assessment and database
+[ ] Four service assessment paths working
+[ ] Supabase tables created
+[ ] Enquiries saved correctly
+[ ] Validation and spam protection working
+
+Phase 3 — CRM and communication
+[ ] Zoho lead creation tested
+[ ] Lead sources correctly recorded
+[ ] WhatsApp links working
+[ ] Acknowledgement notifications tested
+
+Phase 4 — Admin, analytics and launch
+[ ] Admin access secured
+[ ] Website content editable
+[ ] Analytics events verified
+[ ] Domain, SSL and redirects tested
+
+Reset checklist
+13. Commercial and operational priorities
+Keep the first release commercially lean.
+Feature	Priority
+Complete website	Essential
+Supabase backend	Essential
+Zoho CRM integration	Essential
+WhatsApp enquiry channel	Essential
+Google Analytics	Essential
+Meta and TikTok tracking	Essential for advertising
+Live flight booking engine	Later phase
+Client document portal	Later phase
+Online payment processing	Phase 2
+AI travel assistant	Phase 3
+
+Do not spend heavily on live flight inventory or sophisticated client portals before the website consistently generates and converts leads.
+
+Prioritise lead acquisition, lead management and customer conversion.
+14. Production assets required
+These assets must be supplied or confirmed before production deployment.
+Asset	Requirement
+Company logo	Original Easy Permit logo, preferably SVG or transparent PNG
+Existing domain	Exact domain and registrar access
+Contact details	Official WhatsApp, phone and email
+Company address	Verified business address
+Social accounts	Instagram, Facebook and TikTok links
+Brand materials	Existing photographs and promotional materials
+Trust materials	Verified registrations, affiliations and testimonials
+CRM access	Zoho administrator access and API approval
+
+Do not allow OpenCode to invent any of these details.
+15. Final strategic direction
+The correct implementation order is:
+1. Build an exceptional public website.
+2. Make all four enquiry pathways work.
+3. Connect every enquiry to Zoho CRM.
+4. Introduce advertising and SEO.
+5. Measure qualified enquiries and paying clients.
+6. Expand into client portals and advanced automation.
+The most important business metrics will be:
+- Qualified enquiries generated.
+- Consultation booking rate.
+- Enquiry-to-paying-client conversion.
+- Average revenue per client.
+- Customer acquisition cost.
+- Revenue by service category.
+- Adviser response time.
+- Lead follow-up completion rate.
+Final instruction: OpenCode must deliver a working business application, not just an attractive website. Every major feature must be implemented, tested and documented before production launch.

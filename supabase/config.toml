@@ -1,0 +1,7 @@
+project_id = "easypermit"
+
+[functions.zoho-lead]
+verify_jwt = true
+
+[functions.send-acknowledgement]
+verify_jwt = true
