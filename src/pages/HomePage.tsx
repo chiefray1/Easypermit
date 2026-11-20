@@ -20,6 +20,7 @@ import { AssessmentForm } from '../components/forms/AssessmentForm'
 import { useContent } from '../store/content'
 import { PROCESS_STEPS, SERVICES, WHY_US } from '../data/site'
 import { ImageWithFallback } from '../components/ImageWithFallback'
+import { HomeSlider } from '../components/HomeSlider'
 
 const SERVICE_ICONS = {
   graduation: GraduationCap,
@@ -170,6 +171,8 @@ export function HomePage() {
           })}
         </div>
       </div>
+
+      <HomeSlider />
 
       <section className="py-16 sm:py-20">
         <div className="container-x">
