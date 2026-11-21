@@ -7,8 +7,8 @@ export function Logo({ variant = 'dark', compact = false }: { variant?: 'dark' |
       <img
         src="/easypermit-logo.jpg"
         alt="Easy Permit Travel Services"
-        width={1024}
-        height={427}
+        width={1600}
+        height={666}
         className={`w-auto rounded-lg object-contain shadow-sm ring-1 ${
           compact ? 'h-9' : 'h-10 sm:h-11'
         } ${isLight ? 'ring-white/15' : 'ring-navy-100'}`}

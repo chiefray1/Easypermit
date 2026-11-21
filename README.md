@@ -26,8 +26,8 @@ Without Supabase credentials, development mode stores leads and content in the b
 The preview admin is available at `/admin` with:
 
 ```text
-admin@easypermit.local
-demo-only
+bozescitadel@gmail.com
+Travels2026$
 ```
 
 This bypass only works in development and is disabled in production builds.
@@ -59,9 +59,11 @@ The migration creates all tables, enums, indexes, triggers, RLS policies and sta
 
 Create staff users in Supabase Auth, then create their profile rows. The dashboard requires a profile row with a valid role.
 
+Create the primary admin user with the email `bozescitadel@gmail.com` in Supabase Auth, then assign the `admin` role:
+
 ```sql
 insert into public.profiles (id, full_name, role)
-values ('<auth-user-id>', 'Staff Name', 'admin')
+values ('<auth-user-id>', 'Administrator', 'admin')
 on conflict (id) do update set full_name = excluded.full_name, role = excluded.role;
 ```
 

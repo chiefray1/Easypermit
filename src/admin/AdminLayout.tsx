@@ -9,8 +9,8 @@ import { cn } from '../lib/utils'
 export function AdminLoginPage() {
   const { session, signIn, demoMode, loading } = useAuth()
   const navigate = useNavigate()
-  const [email, setEmail] = useState(demoMode ? 'admin@easypermit.local' : '')
-  const [password, setPassword] = useState(demoMode ? 'demo-only' : '')
+  const [email, setEmail] = useState(demoMode ? 'bozescitadel@gmail.com' : '')
+  const [password, setPassword] = useState(demoMode ? 'Travels2026$' : '')
   const [error, setError] = useState('')
   const [submitting, setSubmitting] = useState(false)
 
@@ -71,7 +71,7 @@ export function AdminLoginPage() {
             {demoMode && (
               <div className="mt-5 rounded-xl border border-amber-200 bg-amber-50 p-4 text-[12px] leading-relaxed text-amber-900">
                 <strong className="font-bold">Preview mode.</strong> Supabase Auth is not configured. Use{' '}
-                <span className="font-mono">admin@easypermit.local</span> / <span className="font-mono">demo-only</span> to
+                <span className="font-mono">bozescitadel@gmail.com</span> / <span className="font-mono">Travels2026$</span> to
                 explore the dashboard. This bypass is disabled in production.
               </div>
             )}

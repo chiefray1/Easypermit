@@ -18,19 +18,29 @@ import {
 
 type AssessmentKind = 'study-abroad' | 'visa-services' | 'tours-holidays'
 
-const STUDY_DESTINATIONS = [...DESTINATIONS.map((destination) => destination.country), 'Not sure yet', 'Other']
+const STUDY_DESTINATIONS = [
+  ...DESTINATIONS.map((destination) => destination.country).filter((country) => country !== 'Germany'),
+  'China',
+  'New Zealand',
+  'Australia',
+  'Not sure yet',
+  'Other',
+]
 const VISA_DESTINATIONS = [
   'United Kingdom',
   'Canada',
   'United States',
-  'Germany',
   'Ireland',
   'Malaysia',
-  'Schengen area',
+  'China',
+  'New Zealand',
+  'Australia',
+  'Schengen Area',
   'United Arab Emirates',
   'Other',
   'Not sure yet',
 ]
+const SCHENGEN_DESTINATION = 'Schengen Area'
 
 const CONTACT_FIELDS = ['fullName', 'email', 'phone', 'countryOfResidence'] as const
 
@@ -100,6 +110,13 @@ export function AssessmentForm({
       !values.refusalDetails?.trim()
     ) {
       nextErrors.refusalDetails = 'Please briefly describe what happened.'
+    }
+    if (
+      service === 'visa-services' &&
+      values.destination === SCHENGEN_DESTINATION &&
+      !values.schengenCountries?.trim()
+    ) {
+      nextErrors.schengenCountries = 'Please list the Schengen countries you plan to visit.'
     }
     if (index === totalSteps - 1 && !consent) nextErrors.consent = 'Please confirm consent to continue.'
     setErrors(nextErrors)
@@ -322,6 +339,18 @@ export function AssessmentForm({
               error={errors.destination}
               required
             />
+            {values.destination === SCHENGEN_DESTINATION && (
+              <TextField
+                name="schengenCountries"
+                label="Which Schengen countries?"
+                value={values.schengenCountries ?? ''}
+                onChange={(value) => update('schengenCountries', value)}
+                placeholder="e.g. France, Italy, Spain"
+                error={errors.schengenCountries}
+                hint="List every Schengen country you plan to visit."
+                required
+              />
+            )}
             <TextField
               name="purpose"
               label="Purpose of travel"

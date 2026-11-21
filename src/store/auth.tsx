@@ -29,8 +29,8 @@ const AuthContext = createContext<AuthContextValue | null>(null)
 function demoSession(): AdminSession {
   return {
     userId: 'demo-admin',
-    email: 'admin@easypermit.local',
-    name: 'Demo Administrator',
+    email: 'bozescitadel@gmail.com',
+    name: 'Administrator',
     role: 'admin',
     demo: true,
   }
@@ -105,8 +105,8 @@ export function AuthProvider({ children }: { children: ReactNode }) {
         if (!import.meta.env.DEV) {
           throw new Error('Admin authentication is not configured. Connect Supabase Auth before going live.')
         }
-        if (cleanEmail !== 'admin@easypermit.local' || password !== 'demo-only') {
-          throw new Error('Use the demo credentials shown on this page, or connect Supabase Auth.')
+        if (cleanEmail !== 'bozescitadel@gmail.com' || password !== 'Travels2026$') {
+          throw new Error('Use the admin credentials shown on this page, or connect Supabase Auth.')
         }
         sessionStorage.setItem(DEMO_KEY, '1')
         setSession(demoSession())
